@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de temperatura</title>
+    <link rel="stylesheet" href="css/conversor.css">
+</head>
+
+<body>
+    <h1>Saiba o valor da temperatura em Celsius ou Fahrenheit!</h1>
+
+    <form id="temperatura">
+        <div id="valor">
+            <label for="qtd">Digite o valor da temperatura que deseja converter:</label>
+        </div>
+        <label for="celsius">Celsius</label>
+        <input id="celsius" type="number" min="1" value="0" onchange="inputCelsius()">
+
+        <!--ainda não esta funcional, seria para mostrar a temperatura em fahrenheit direto! sem clicar em botão-->
+        <label for="fahrenheit">Fahrenheit</label>
+        <input id="fahrenheit" type="text" min="1" value="32" onchange="inputFahrenheit()" >
+
+
+
+
+    </form>
+
+    <button type="button" >Clique aqui</button>
+
+    <p id="msg"></p>
+
+    <img src="https://i.pinimg.com/736x/63/a9/ea/63a9ea13b4dc728378b58eb22643a7b4.jpg">
+</body>
+<script src="js/conversor.js"></script>
+
+</html>

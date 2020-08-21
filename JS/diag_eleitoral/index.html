@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eleições</title>
+    <!--link para chamar o arquivo css-->
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+
+<body>
+    <!--div container (classe para editarmos o css)será responsável pelo conteúdo do body, nesse caso-->
+    <div class="container">
+        <img src="imagens/download.png">
+        <form>
+            <!--label = rótulo/etiqueta.Meu textView-->
+            <label for="">Digite sua idade:</label>
+            <!--input: seria o editText-->
+            <!--type permite que limitemos o input a um determinado tipo (string, number)-->
+            <input id="idade" type="number" min="1" max="120">
+            <!--o type button, paralisa a tela após o clique do button, dessa forma a página não será atualizada-->
+            <button onclick="checarIdade()" type="button">Consultar</button>
+        </form>
+
+        <p id="mensagem"></p>
+    </div>
+
+    <script src="js/eleitoral.js"></script>
+</body>
+</html>

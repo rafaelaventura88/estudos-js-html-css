@@ -1,0 +1,9 @@
+#titulo{
+    border:1px solid black !important;
+    width: 500px;
+    height: 50px;
+    font-size: 25px ;
+    font-weight: bold;
+    background-color:lightgrey;
+    
+}

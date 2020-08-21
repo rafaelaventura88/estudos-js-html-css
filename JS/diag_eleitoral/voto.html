@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vote em seu candidato</title>
+
+    <!--link é a tag que faz o link da folha de estilo com a pagina html-->
+    <link rel="stylesheet" href="css/voto_estilo.css">
+
+
+    <!--outra forma de chamar a folha de estilo, porém ultrapassada-->
+    <!--<style>
+        label{
+
+        }
+    </style-->
+
+</head>
+
+<body>
+    <form>
+        <!--fieldset usado para separar "radioButton"-->
+        <fieldset>
+            <!--label seria uma etiqueta/rotulo-->
+            <label for="candidatoA">Candidato A
+                <input name="voto" id="candidatoA" type="radio" checked="true">
+            </label>
+
+            <label for="candidatoB">Candidato B
+                <input name="voto" id="candidatoB" type="radio">
+            </label>
+        </fieldset>
+        <button onclick="votar()" type="button">Confirma</button>
+    </form>
+    <p id="voto-texto">
+
+    </p>
+    <img id="voto-img" src="">
+</body>
+<script src="js/voto.js"></script>
+
+</html>

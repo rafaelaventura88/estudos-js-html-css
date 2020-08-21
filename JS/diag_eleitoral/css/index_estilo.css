@@ -1,0 +1,17 @@
+/*para chamar uma classe colocar . e digitar o nome da classe*/
+.container{
+
+    width: 450px;
+    margin: 0 auto;
+
+}
+
+button{
+    display: block;
+    width: 100%;
+}
+
+img{
+    width: 100%;
+}
+ 

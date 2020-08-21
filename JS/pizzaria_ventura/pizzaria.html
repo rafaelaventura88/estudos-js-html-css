@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/pizzaria.css">
+</head>
+
+<body>
+    <div class="container">
+        <ul>
+            <li>Início</li>
+            <li>Sobre Nós</li>
+            <li>Pedido online</li>
+        </ul>
+        <h1>Pizzaria Ventura - O retorno!</h1>
+        <h2>Faça seu pedido online</h2>
+        <form id="pedido_geral">
+            <img id="img_pizzas" src="imagens/calabresa.jpg">
+            
+            <label for="pizzas">Escolha um sabor:</label>
+            <select name="pizzas" id="pizzas_select">
+                <option id="pizza_calabresa" value="calabresa">Calabresa</option>
+                <option id="pizza_queijos" value="queijos">Quatro queijos</option>
+            </select>
+            
+            <label for="qtd">Escolha a quantidade:</label>
+            <input id="qtd" type="number" min="1" value="1">
+
+            <p id="total">Total- R$ 25,00</p>
+        </form>
+        <button id="pedir" type="button" onclick="setPrecoText(),setMens()">Fazer pedido</button>
+        <p id="msg"></p>
+    </div>
+
+</body>
+<script src="js/pizzaria.js"></script>
+</html>

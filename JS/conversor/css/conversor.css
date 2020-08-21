@@ -1,0 +1,23 @@
+*{
+    padding: 0 auto;
+    background-color:lightblue;
+    color:coral;
+}
+#valor{
+    margin-bottom: 10px;
+
+}
+
+#conversao_unidade{
+    margin-bottom: 10px;
+}
+
+#medida{
+    margin-bottom: 10px;
+}
+#temperatura{
+margin-bottom: 10px;
+}
+label{
+    display: block;
+}
